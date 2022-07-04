@@ -1,0 +1,143 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(226, 224, 255);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+form {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    background-color: rgb(158, 151, 255);
+    font-size: 2rem;
+    color: white;
+    border-radius: 10%;
+    position: absolute center;
+}
+
+input[type=link] {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    background-color: rgb(233, 232, 255);
+    border-color: white;
+    font-size: 1rem;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    background-color: rgb(233, 232, 255);
+    border-color: white;
+    font-size: 1rem;
+}
+
+input[type=submit] {
+    width: 50%;
+    padding: 3%;
+    background-color: rgb(100, 50, 255);
+    border-style: double;
+    border-width: 10px;
+    border-color: white;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+    float: right;
+}
+
+#meme1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+    float: left;
+    margin-left: 5rem;
+}
+
+#meme2 {
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+    float: right;
+    margin-right: 5rem;
+}
+    
+#image {
+    text-align: center;
+    width: 100%;
+}
+
+#memeGoesHere {
+	margin-top: 100px;
+    display: flex;
+	flex-wrap: wrap;
+}
+
+#meme {
+	position: relative;
+	max-width: 500px;
+	width: 100%;
+	max-height: 500px;
+	height: 100%;
+	margin: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#meme:hover {
+	cursor: default;
+}
+
+#delete {
+	font-size: 15rem;
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#delete:hover {
+	opacity: 1;
+}
+
+#memeTop, #memeBottom {
+	position: absolute;
+    font-family: impact, sans-serif;
+	letter-spacing: 5px;
+	margin: 15px 0;
+	padding: 0 5px;
+	font-size: 2rem;
+    text-align: center;
+	text-transform: uppercase;
+	color: white;
+    text-shadow: 3px 3px 0px #000000;
+}
+
+#memeImage {
+    max-width: 500px;
+	width: 100%;
+	max-height: 500px;
+    height: 100%;
+    border-radius: 5%;
+}
+
+#memeTop {
+	top: 0;
+}
+
+#memeBottom {
+	bottom: 0;
+}
